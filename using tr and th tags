@@ -1,0 +1,35 @@
+<html>
+ <head>
+   <title>tables</title>
+  </head>
+  <body>
+   <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">Home starter hosting</th>
+        <th scope="col">Premiun business hosting</th>
+       </tr>
+      </thread>
+      <tbody>
+       <tr>
+        <th scope="row">Disk space</th>
+        <td>250mb</td>
+        <td>1gb</td>
+       </tr>
+       <tr>
+        <th scope="row">Bandwidth</td>
+        <td>5gb per month</td>
+        <td>50gb per month</td>
+       </tr>
+       <!--more rows like the two above here-->
+      </tbody>
+      <tfoot>
+       <tr>
+        <td></td>
+        <td colspan="2"Sign up now ans save 10%!</td>
+       </tr>
+      </tfoot>
+     </table>
+    </body>
+   </html>
